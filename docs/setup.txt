@@ -6,6 +6,10 @@
 	Build a GraphQL server for Node.js, using PostgreSQL/MySQL
 		youtu.be/DNPVqK_woRQ
 
+	codementor.io (leebenson)
+
+	email: lee@leebenson.com
+
 // ------------------------------------------------------------------------------------------------
 // INSTALL
 // ------------------------------------------------------------------------------------------------
