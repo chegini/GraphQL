@@ -1,0 +1,35 @@
+Installing PostgreSQL
+		postgresql.org/download/macosx
+		postgresapp.com
+		
+		exponential.io/blog/2015/02/21/install-postgresql-on-mac-os-x-via-brew
+
+		moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy
+
+			brew install PostgreSQL
+
+			which postgres
+			postgres -V
+			ls /usr/local/Cellar/postgresql
+
+			mkdir -p ~/Library/LaunchAgents
+			cp /usr/local/Cellar/postgresql/9.4.5_2/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents
+
+			lunchy start postgres
+			lunchy stop postgres
+
+	Starting Postgres
+		postgresql.org/docs/8.2/static/server-start.html
+
+		mkdir /usr/local/pgsql
+		mkdir /usr/local/pgsql/data
+
+		postgres -D /usr/local/pgsql/data
+
+	Create Postgres Database
+
+		rm -rf /usr/local/pgsql/data
+		initdb -D /usr/local/pgsql/data -U esalzmann
+		postgres -D /usr/local/pgsql/data
+
+		su - esalzmann

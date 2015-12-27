@@ -1,0 +1,93 @@
+
+// ------------------------------------------------------------------------------------------------
+// VIDEO
+// ------------------------------------------------------------------------------------------------
+	
+	Build a GraphQL server for Node.js, using PostgreSQL/MySQL
+		youtu.be/DNPVqK_woRQ
+
+// ------------------------------------------------------------------------------------------------
+// INSTALL
+// ------------------------------------------------------------------------------------------------
+
+	davidwalsh.name/upgrade-nodejs
+		sudo npm cache clean -f
+		sudo npm install -g n
+		sudo n stable
+		node -v
+
+	npm install -g babel
+	npm install -g babel-cli
+
+	Installing PostgreSQL
+		enterprisedb.com/products-services-training/pgdownload#osx
+
+	npm init
+
+	npm i -S babel-preset-node5
+
+	touch .babelrc
+	touch db.js
+
+	npm i -S sequelize
+
+	npm i -S pg pg-hstore
+
+	npm i -S lodash
+
+	npm i -S faker
+
+	babel-node db.js
+
+	psql relay postgres
+
+	npm i -S graphql react react-dom
+
+	npm i -S express express-graphql
+
+	npm i -S graphiql
+
+	babel-node server.js
+
+// ------------------------------------------------------------------------------------------------
+// PACKAGES
+// ------------------------------------------------------------------------------------------------
+
+	GraphQL
+		npmjs.com/package/graphql
+		github.com/graphql/graphql-js
+
+			npm install graphql
+			npm install --save graphql
+
+	Relay
+		npmjs.com/package/graphql-relay
+		github.com/graphql/graphql-relay-js
+
+			npm install graphql-relay
+
+	Express GraphQL
+		github.com/graphql/express-graphql
+		npmjs.com/package/express-graphql
+
+			npm install express-graphql
+			npm install --save express-graphql
+
+	Babel
+
+		npm install -g babel
+		npm install -g babel-cli
+
+// ------------------------------------------------------------------------------------------------
+// RUN
+// ------------------------------------------------------------------------------------------------
+
+	npm run update-schema
+	npm start
+	
+// ------------------------------------------------------------------------------------------------
+// END
+// ------------------------------------------------------------------------------------------------
+
+
+
